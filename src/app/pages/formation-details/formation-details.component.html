@@ -5,10 +5,10 @@
     <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
         <div class="row">
             <div class="col-12 pt-lg-5 mt-lg-5 text-center">
-                <h1 class="display-4 text-white animated zoomIn">{{formation.title}}</h1>
+                <h1 class="display-4 text-white animated zoomIn">{{formation?.title}}</h1>
                 <div class="d-flex mb-3 justify-content-center text-white">
-                  <small class="me-3"><i class="far fa-user text-primary me-2"></i>{{formation.coach}}</small>
-                  <small><i class="far fa-calendar-alt text-primary me-2"></i>{{formation.date}}</small>
+                  <small class="me-3"><i class="far fa-user text-primary me-2"></i>{{formation?.coach}}</small>
+                  <small><i class="far fa-calendar-alt text-primary me-2"></i>{{formation?.date}}</small>
               </div>
             </div>
         </div>
@@ -25,18 +25,18 @@
                 <div class="col-lg-7">
                  <div class="row">
                   <div class="col-12">
-                    <img [src]="formation.img" class="img-fluid" />
+                    <img [src]="formation?.img" class="img-fluid" />
                   </div>
                   <div class="col-12">
                     <div class="p-4">
                       <div class="d-flex mb-3">
-                          <small class="me-3"><i class="far fa-user text-primary me-2"></i>{{formation.coach}}</small>
-                          <small><i class="far fa-calendar-alt text-primary me-2"></i>{{formation.date}}</small>
+                          <small class="me-3"><i class="far fa-user text-primary me-2"></i>{{formation?.coach}}</small>
+                          <small><i class="far fa-calendar-alt text-primary me-2"></i>{{formation?.date}}</small>
                       </div>
-                      <h4 class="mb-3">{{formation.title}}</h4>
+                      <h4 class="mb-3">{{formation?.title}}</h4>
 
                         <ul class="list-unstyled">
-                          <li *ngFor="let item of formation.items">
+                          <li *ngFor="let item of formation?.items">
                             <i class="fa fa-check text-success"></i>
                             {{item}}</li>
                         </ul>
@@ -46,10 +46,9 @@
                 </div>
                 <div class="col-lg-5 bg-secondary pt-5" style="height: 550px;">
                   <h4 class="text-white mb-4">Inscription</h4>
-                  <app-formation-form></app-formation-form>
+                  <app-formation-form [formation]="formation!"></app-formation-form>
                 </div>
             </div>
         </div>
     </div>
     <!-- About End -->
-

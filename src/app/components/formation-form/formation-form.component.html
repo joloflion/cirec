@@ -1,20 +1,20 @@
 <div class="container-fluid p-0">
-  <form>
+  <form [formGroup]="inscriptionForm">
     <div class="row g-3">
         <div class="col-12">
-            <input type="text" class="form-control border-0 bg-light px-4" placeholder="Votre Nom" style="height: 55px;">
+            <input type="text" class="form-control border-0 bg-light px-4" placeholder="Votre Nom" style="height: 55px;" formControlName="name" >
         </div>
         <div class="col-12">
-            <input type="email" class="form-control border-0 bg-light px-4" placeholder="Votre Email" style="height: 55px;">
+            <input type="email" class="form-control border-0 bg-light px-4" placeholder="Votre Email" style="height: 55px;" formControlName="email" >
         </div>
         <div class="col-12">
-            <input type="tel" class="form-control border-0 bg-light px-4" placeholder="Téléphone" style="height: 55px;">
+            <input type="tel" class="form-control border-0 bg-light px-4" placeholder="Téléphone" style="height: 55px;" formControlName="phone" >
         </div>
         <div class="col-12">
-            <textarea class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Un message"></textarea>
+            <textarea class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Un message"  formControlName="message" ></textarea>
         </div>
         <div class="col-12">
-            <button class="btn btn-primary w-100 py-3" type="submit">Je m'inscris</button>
+            <button class="btn btn-primary w-100 py-3"   (click)="subscribe()">Je m'inscris</button>
         </div>
     </div>
 </form>

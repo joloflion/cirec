@@ -9,12 +9,11 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarCollapse">
       <div class="navbar-nav ms-auto py-0">
-          <a href="/" class="nav-item nav-link active">Acceuil</a>
-          <a href="qui-sommes-nous" class="nav-item nav-link">Qui sommes-nous ?</a>
-          <a href="services" class="nav-item nav-link">Nos Formations</a>
-          <a href="contact" class="nav-item nav-link">Nous contacter</a>
+          <a routerLink="/"  [routerLinkActiveOptions]={exact:true} class="nav-item nav-link" routerLinkActive="active">Acceuil</a>
+          <a routerLink="/qui-sommes-nous" class="nav-item nav-link" routerLinkActive="active" >Qui sommes-nous ?</a>
+          <a routerLink="/services" class="nav-item nav-link" routerLinkActive="active">Nos Formations</a>
+          <a routerLink="/contact" class="nav-item nav-link" routerLinkActive="active">Nous contacter</a>
       </div>
-      <button type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
-      <a href="https://htmlcodex.com/startup-company-website-template" class="btn btn-primary py-2 px-4 ms-3">Download Pro Version</a>
+      <a href="services" class="btn btn-secondary 2 px-4 ms-3">Je m'inscris</a>
   </div>
 </nav>

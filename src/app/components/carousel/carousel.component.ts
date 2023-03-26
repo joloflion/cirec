@@ -11,7 +11,7 @@ export class CarouselComponent {
     {
       id: 1,
       title: 'Apprendre par la Pratique',
-      desc: 'En pratique comptable et fiscale',
+      desc: 'Pratique comptable et fiscale',
       Image: ''
     },
     {

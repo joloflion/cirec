@@ -1,0 +1,17 @@
+<div
+  [@toastTrigger]="(toast.showsToast$ | async) ? 'open' : 'close'"
+  [class]="toast.toastState$ | async">
+    <div style="max-width: 340; height: 50px;"  class="d-flex align-items-center">
+      <!--We access the toastMessage$ observable in the service-->
+      <i class="fa fa-check text-success"></i>
+      {{ toast.toastMessage$ | async }}
+    </div>
+
+  <a
+    class="close-btn"
+    (click)="dismiss()">
+    <small>
+      <i class="fa fa-times text-danger"></i>
+    </small>
+  </a>
+</div>
