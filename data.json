@@ -1,0 +1,218 @@
+{
+  "formations": [
+    {
+   "title": "CERTIFICAT ELEMENTAIRE COMPTABLE",
+   "cible": {
+    "name": "CIBLE",
+    "value": "Élèves en classe de Second, Première et Terminale"
+   },
+   "cadre": {
+    "name": "CADRE PEDAGOGIQUE",
+    "value": "Formation Pratique avec Alternance Ecole/Entreprises",
+    "items": [
+      "GESTION DE STOCK",
+      "GESTION DE CAISSE"
+    ]
+   },
+   "duree": [
+    {
+      "name": "DUREE DE LA FORMATION",
+      "value": "NEUF (09) Mois"
+    },
+    {
+      "name": "EMPLOI DU TEMPS",
+      "value": "6H/Semaines"
+    }
+  ],
+  "jours": [
+    {
+      "name": "LUNDI, MERCREDI et VENDREDI",
+      "value": "18H-20H"
+    },
+    {
+      "name": "SAMEDI",
+      "value": "15H-17H"
+    }],
+    "certifications": [
+      "ATTESTATION de stage en GESTION DE STOCK",
+      "ATTESTATION de stage en GESTION DE CAISSE"
+    ],
+    "programmes": [
+      {
+      "title": "ENSEIGNEMENT THEORIQUE",
+      "items": [
+        "COMPTABILITE GENERALE",
+        "DROIT CIVILE",
+        "TECHNIQUE DE COMMUNICATION",
+        "ECONOMIE GENERALE",
+        "EVALUATION"
+      ]},
+      {
+        "title": "ENSEIGNEMENT PRATIQUE",
+        "items": [
+          "INITIATION",
+          "PARAMETRAGE",
+          "TRAITEMENT DE FICHIERS SUR LE LOGICIEL SAARIGESCOM (Gestion de stock et Gestion de caisse)"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "PRATIQUE COMPTABLE ET FISCALE (NIVEAU 1)",
+    "cible": {
+     "name": "CIBLE",
+     "value": " Etudiants en gestion et PROFESSIONNELS"
+    },
+    "cadre": {
+     "name": "CADRE PEDAGOGIQUE",
+     "value": "Formation Pratique avec Alternance Ecole/Entreprises",
+     "items": [
+       "GESTION DE STOCK",
+       "GESTION DE CAISSE"
+     ]
+    },
+    "duree": [
+     {
+       "name": "DUREE DE LA FORMATION",
+       "value": "SIX(06) Mois + 2 mois de stage non rémunéré en cabinet"
+     },
+     {
+       "name": "EMPLOI DU TEMPS",
+       "value": "2 séances de 3H/semaines en jour et en soir"
+     }
+   ],
+   "programmes": [
+    {
+     "title": "INITIATION AU LOGICIEL SAARI COMPTABILITE (SAGE 100)",
+     "items": [
+      "Paramétrage de base",
+      "Création d’un fichier comptable",
+      "Cas pratiques",
+      "",
+      "Suivi et Evaluation"
+
+     ]
+    },
+    {
+      "title": "TENUE DE COMPTABILITE",
+      "items": [
+        "Dépouillement des pièces Comptables",
+        "Classement des pièces Comptables",
+        "Enregistrement des pièces Comptables",
+        "Analyses des comptes",
+        "Rapprochement Bancaire",
+        "Cas pratiques",
+        "Suivi et Evaluation"
+      ]
+    },
+    {
+      "title": "DECLARATIONS FISCALES",
+      "items": [
+        "Déclaration de la TVA",
+        "Déclaration des VRS",
+        "Déclaration des BRS",
+        "Cas pratiques",
+        "Suivi et Evaluation"
+      ]
+    },
+    {
+      "title": "DECLARATIONS SOCIALES",
+      "items": [
+        "Etats des salaires",
+        "Déclaration de l’IPRES",
+        "Déclaration de la CSS",
+        "Cas pratiques"
+      ]
+
+    },
+    {
+      "title": "GESTION DE STOCK & GESTION DE CAISSE",
+      "items": []
+
+    },
+    {
+      "title": "EXPOSES AU PROGRAMMES ET THEMES PROPOSEES",
+      "items": [
+        "LE SYSCOHADA de son origine à nos jours",
+        "Exposé sur le système d’évaluation et de prestations des déclarations. TVA, VRS, BRS, IPRES (Fonctionnement de l’IPRES, évaluations du nombre de parts et traitements des différents régimes.) C.S.S (Fonctionnement de la CSS, procédures à suivre par un accidenté de travail /"
+      ]
+    }
+   ]
+   },
+   {
+    "title": "FORMATION PRATIQUE COMPTABLE ET FISCALE APPROFONDIE(NIVEAU 2)",
+    "cible": {
+     "name": "CIBLE",
+     "value": "Etudiants en gestion et PROFESSIONNELS"
+    },
+    "duree": [
+     {
+       "name": "DUREE DE LA FORMATION",
+       "value": "Huit (08) Mois"
+     },
+     {
+       "name": "EMPLOI DU TEMPS",
+       "value": " 3 Séances de 2H/semaines, en soir et en weekend."
+     }
+   ],
+   "jours": [
+      {
+        "name": "MARDI et JEUDI",
+        "value": " 18H-20H"
+      },
+      {
+        "name": "SAMEDI",
+        "value": " 12H-14H"
+      }
+   ],
+   "programmes": [
+    {
+     "title": "TENUE DE COMPTABILITE",
+     "items": [
+      "(Dépouillement, Classement, Imputation et Journalisation sur Maquette & Logiciel)."
+     ]
+    },
+    {
+      "title": "DECLARATIONS FISCALES",
+      "items": [
+        "Modalités de Régularisations de la TVA",
+        "Gestion des Etats Trimestriels sur les sommes versées à des tiers",
+        "Etat Annuel des Salaires : ETAT 1024",
+        "Déclaration de Revenu Individuel",
+        "Déclaration de la Contribution Economique Locale",
+        "Déclaration de la Taxe Spéciale sur les Véhicules",
+        "Déclaration Impôt sur les Sociétés et Impôt sur le Revenu",
+        "Déclaration Contribution Globale Unique(CGU)"
+      ]
+    },
+    {
+      "title": "DECLARATION SOCIALE",
+      "items": [
+        "Etat Récapitulatif Annuel IPRES et CSS"
+      ]
+    },
+    {
+      "title": "SAARI",
+      "items": [
+        "SAARI Gestion Commerciale",
+        "SAARI Paie"
+      ]
+
+    },
+    {
+      "title": "ETATS FINANCIERS",
+      "items": [
+        "Système Minimal de Trésorerie",
+        "Système Normal",
+        "Déclaration Foncière",
+        "Déclaration de Revenu Foncier",
+        "Contribution Globale Foncière"
+      ]
+
+    }
+   ]
+   }
+
+
+]
+}

@@ -12,13 +12,13 @@ export class CarouselComponent {
       id: 1,
       title: 'Apprendre par la Pratique',
       desc: 'Pratique comptable et fiscale',
-      Image: ''
+      image: 'assets/img/carousel_1.jpeg'
     },
     {
       id: 2,
       title: 'Formations Pratiques destinées',
       desc: 'Aux étudiants et professionnels',
-      Image: ''
+      image: 'assets/img/carousel_2.jpeg'
     }
   ]
 

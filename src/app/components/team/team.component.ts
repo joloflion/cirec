@@ -7,4 +7,22 @@ import { Component } from '@angular/core';
 })
 export class TeamComponent {
 
+  teams = [
+    {
+      name: "",
+      img: "assets/img/team1.jpeg"
+
+    },
+    {
+      name: "",
+      img: "assets/img/team2.jpeg"
+
+    },
+    {
+      name: "",
+      img: "assets/img/team1.jpeg"
+
+    }
+  ]
+
 }

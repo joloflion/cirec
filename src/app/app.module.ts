@@ -25,6 +25,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { TeamComponent } from './components/team/team.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import { ContactComponent } from './components/contact/contact.component';
     FormationFormComponent,
     AboutUsComponent,
     TeamComponent,
-    ContactComponent
+    ContactComponent,
+    TestimonialsComponent
   ],
   imports: [
     BrowserAnimationsModule,

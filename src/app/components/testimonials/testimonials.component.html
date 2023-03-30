@@ -1,0 +1,25 @@
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+  <div class="container py-5">
+      <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+          <h5 class="fw-bold text-primary text-uppercase">Ecoutez les étudiants</h5>
+          <h1 class="mb-0">Ils nous parlent de leur parcours chez CIREC</h1>
+      </div>
+      <div class="row g-5">
+          <div class="col-12 col-md-6">
+            <div class="video-container">
+              <video #video width="100%" height="340" poster="{{testimonials[0].poster}}">
+                <source [src]="testimonials[0].video+'.mp4'" type="video/mp4">
+                <source [src]="testimonials[0].video+'.ogg'" type="video/ogg">
+              Your browser does not support the video tag.
+              </video>
+              <div class="play-button" (click)="play()" *ngIf="!played || paused">
+                <i class="fa fa-play" aria-hidden="true"></i>
+              </div>
+              <div class="play-button pause" (click)="pause()" *ngIf="played && !paused">
+                <i class="fa fa-pause" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+</div>
