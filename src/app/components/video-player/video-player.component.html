@@ -1,0 +1,14 @@
+<div class="video-cover">
+	<video [id]="'video_'+video.id"  class="video-player"  preload="none"
+		poster="{{video.poster}}"
+		data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
+		<source [src]="video.mp4" type='video/mp4' />
+		<source [src]="video.ogg" type='video/ogg' />
+	</video>
+	<button  *ngIf="!isPlay" (click)="playPause(video.id)" class="play-button pause">
+    <i class="fa fa-pause" aria-hidden="true"></i>
+  </button>
+  <button *ngIf="isPlay" (click)="playPause(video.id)" class="play-button">
+    <i  class="fa fa-play" aria-hidden="true"></i>
+  </button>
+</div>

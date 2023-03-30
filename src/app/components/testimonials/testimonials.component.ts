@@ -1,4 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
+import { Video } from 'src/app/core/models/video';
 
 @Component({
   selector: 'app-testimonials',
@@ -15,13 +16,17 @@ export class TestimonialsComponent {
 
 
 
-  testimonials = [
+  videos: Video[] = [
     {
-      video: "assets/videos/temoin1",
+      id: "1",
+      mp4: "assets/videos/temoin1.mp4",
+      ogg: "assets/videos/thumb1.ogg",
       poster: "assets/videos/thumb1.png"
     },
     {
-      video: "assets/videos/temoin2",
+      id: "2",
+      mp4: "assets/videos/temoin2.mp4",
+      ogg: "assets/videos/temoin2.ogg",
       poster: "assets/videos/thumb2.png"
     }
   ]

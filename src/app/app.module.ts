@@ -26,6 +26,7 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { TeamComponent } from './components/team/team.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { VideoPlayerComponent } from './components/video-player/video-player.component';
 
 
 @NgModule({
@@ -45,7 +46,8 @@ import { TestimonialsComponent } from './components/testimonials/testimonials.co
     AboutUsComponent,
     TeamComponent,
     ContactComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    VideoPlayerComponent
   ],
   imports: [
     BrowserAnimationsModule,

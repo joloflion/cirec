@@ -5,20 +5,8 @@
           <h1 class="mb-0">Ils nous parlent de leur parcours chez CIREC</h1>
       </div>
       <div class="row g-5">
-          <div class="col-12 col-md-6">
-            <div class="video-container">
-              <video #video width="100%" height="340" poster="{{testimonials[0].poster}}">
-                <source [src]="testimonials[0].video+'.mp4'" type="video/mp4">
-                <source [src]="testimonials[0].video+'.ogg'" type="video/ogg">
-              Your browser does not support the video tag.
-              </video>
-              <div class="play-button" (click)="play()" *ngIf="!played || paused">
-                <i class="fa fa-play" aria-hidden="true"></i>
-              </div>
-              <div class="play-button pause" (click)="pause()" *ngIf="played && !paused">
-                <i class="fa fa-pause" aria-hidden="true"></i>
-              </div>
-            </div>
+          <div *ngFor="let v of videos" class="col-12 col-md-6">
+            <app-video-player [video]="v"></app-video-player>
           </div>
       </div>
   </div>
