@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CatalogueComponent } from './components/catalogue/catalogue.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { FormationDetailsComponent } from './pages/formation-details/formation-details.component';
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'formation/:id',
     component: FormationDetailsComponent
+  },
+  {
+    path: "catalogue",
+    component: CatalogueComponent
   }
 ];
 

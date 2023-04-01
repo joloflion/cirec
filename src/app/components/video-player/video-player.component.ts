@@ -18,7 +18,6 @@ export class VideoPlayerComponent {
     var video: any = document.getElementById("video_"+id);
     if (video.paused) video.play();
     else video.pause();
-    video.width = 720;
     this.isPlay = video.paused;
   }
 

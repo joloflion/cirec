@@ -1,0 +1,32 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 col-md-6">
+      <div class="row">
+        <div class="col-6 col-md-6 img-mini mt-3">
+          <img src="assets/img/c1.jpeg" alt="" class="img-fluid">
+        </div>
+        <div class="col-6 col-md-6 img-mini mt-3">
+          <img src="assets/img/galery2.jpeg" alt="" class="img-fluid">
+        </div>
+        <div class="col-6 col-md-6 img-mini mt-3">
+          <img src="assets/img/galery3.jpeg" alt="" class="img-fluid">
+        </div>
+        <div class="col-6 col-md-6 img-mini mt-3">
+          <img src="assets/img/c3.jpeg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6">
+
+      <owl-carousel-o [options]="customOptions" >
+        <ng-container *ngFor="let p of posts">
+          <ng-template carouselSlide [id]="p.id!">
+            <div class="img-max">
+              <img [src]="p.img" alt="" class="img-fluid mt-3">
+            </div>
+          </ng-template>
+        </ng-container>
+      </owl-carousel-o>
+    </div>
+  </div>
+</div>

@@ -9,20 +9,23 @@ import { FormationService } from 'src/app/core/services/formation.service';
 })
 export class FormationsComponent implements OnInit {
 
-  formations: Formation[] = [];
+  formations: any[] = [
+    {
+      name: "CERTIFICAT ELEMENTAIRE COMPTABLE"
+    },
+    {
+      name: "PRATIQUE COMPTABLE ET FISCALE (NIVEAU 1)"
+    },
+    {
+      name: "PRATIQUE COMPTABLE ET FISCALE APPROFONDIE(NIVEAU 2)"
+    }
+  ];
   constructor(private formation: FormationService){
 
   }
 
 
   ngOnInit(): void {
-    this.formation.getPosts()
-    .subscribe(res => {
-      res.docs.forEach(doc =>{
-        let form: any = doc.data();
-        form.id = doc.id;
-        this.formations.push(form)
-      })
-    })
+
   }
 }

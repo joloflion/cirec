@@ -27,6 +27,10 @@ import { TeamComponent } from './components/team/team.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { VideoPlayerComponent } from './components/video-player/video-player.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { CatalogueComponent } from './components/catalogue/catalogue.component';
+import { DomainesComponent } from './components/domaines/domaines.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
 @NgModule({
@@ -47,7 +51,10 @@ import { VideoPlayerComponent } from './components/video-player/video-player.com
     TeamComponent,
     ContactComponent,
     TestimonialsComponent,
-    VideoPlayerComponent
+    VideoPlayerComponent,
+    GalleryComponent,
+    CatalogueComponent,
+    DomainesComponent
   ],
   imports: [
     BrowserAnimationsModule,
@@ -60,7 +67,8 @@ import { VideoPlayerComponent } from './components/video-player/video-player.com
     AngularFireStorageModule,
     FormsModule,
     ReactiveFormsModule,
-    SharedModule
+    SharedModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
