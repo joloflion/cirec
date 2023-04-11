@@ -10,7 +10,7 @@ import { ToastService, TOAST_STATE } from 'src/app/core/services/toast.service';
   styleUrls: ['./formation-form.component.scss']
 })
 export class FormationFormComponent  implements OnInit {
- @Input() formation!: Formation;
+ @Input() formation!: any;
 
  inscriptionForm!: FormGroup;
   constructor(

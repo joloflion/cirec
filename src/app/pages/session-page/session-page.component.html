@@ -1,0 +1,27 @@
+<!-- Navbar Start -->
+<div class="container-fluid position-relative p-0">
+  <app-nav-bar></app-nav-bar>
+  <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 30px;">
+
+  </div>
+</div>
+<!-- Navbar End -->
+<div class="container ">
+  <h3 class="my-3">candidatures</h3>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Nom et Prénom</th>
+        <th scope="col">Téléphone</th>
+        <th scope="col">Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let c of candidats">
+        <td>{{c.name}}</td>
+        <td>{{c.phone}}</td>
+        <td>{{c.email}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -6,6 +6,8 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
 import { FormationDetailsComponent } from './pages/formation-details/formation-details.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ServicePageComponent } from './pages/service-page/service-page.component';
+import { AdminComponent } from './pages/admin/admin.component';
+import { SessionPageComponent } from './pages/session-page/session-page.component';
 
 const routes: Routes = [
   {
@@ -31,7 +33,16 @@ const routes: Routes = [
   {
     path: "catalogue",
     component: CatalogueComponent
+  },
+  {
+    path: "admin",
+    component: AdminComponent
+  },
+  {
+    path: 'sessions/:id',
+    component: SessionPageComponent
   }
+
 ];
 
 @NgModule({

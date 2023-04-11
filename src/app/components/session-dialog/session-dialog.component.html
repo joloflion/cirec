@@ -1,0 +1,33 @@
+<div class="container bg-white">
+  <h5 class="p-3 bg-muted">Lancer une nouvelle session</h5>
+  <div class="p-2">
+    <form>
+     <label for="font-weigth-bold"> Durée de la formation</label>
+      <div class="row mt-2">
+        <div class="col-12 col-md-6">
+         <label for="">Date de début</label>
+         <input type="date" class="form-control form-control-lg" (change)="start($event)">
+        </div>
+        <div class="col-12 col-md-6">
+          <label for="">Date de fin</label>
+         <input type="date" class="form-control form-control-lg" (change)="end($event)"  >
+        </div>
+      </div>
+      <div class="mt-3">
+        <label for="upload" class="upload text-center">
+         <span *ngIf="name === undefined">Charger le catalogue</span>
+         <span *ngIf="name !== undefined" >{{name}}</span>
+         {{name}}
+          <input id="upload" type="file" accept="image/png, image/gif, image/jpeg" style="visibility: hidden;"(change)="selectFiles($event)"   />
+        </label>
+      </div>
+
+      <div class="mt-3">
+        <button [disabled]="loading" class="btn btn-dark ms-3" (click)="dialogRef.close()">Annuler</button>
+        <button [disabled]="loading" class="btn btn-primary ms-3" (click)="submit()">Enregistrer</button>
+      </div>
+    </form>
+
+  </div>
+</div>
+

@@ -31,6 +31,19 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { CatalogueComponent } from './components/catalogue/catalogue.component';
 import { DomainesComponent } from './components/domaines/domaines.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { AdminComponent } from './pages/admin/admin.component';
+import { SessionFormComponent } from './components/session-form/session-form.component';
+import { SessionDialogComponent } from './components/session-dialog/session-dialog.component';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import { TextEditorComponent } from './components/text-editor/text-editor.component';
+import { SessionEnCourtComponent } from './components/session-en-court/session-en-court.component';
+import { SessionPageComponent } from './pages/session-page/session-page.component';
+
+
+
 
 
 @NgModule({
@@ -54,7 +67,13 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     VideoPlayerComponent,
     GalleryComponent,
     CatalogueComponent,
-    DomainesComponent
+    DomainesComponent,
+    AdminComponent,
+    SessionFormComponent,
+    SessionDialogComponent,
+    TextEditorComponent,
+    SessionEnCourtComponent,
+    SessionPageComponent
   ],
   imports: [
     BrowserAnimationsModule,
@@ -68,7 +87,13 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     FormsModule,
     ReactiveFormsModule,
     SharedModule,
-    CarouselModule
+    CarouselModule,
+    MatDialogModule,
+    MatCardModule,
+    MatButtonModule,
+    MatCheckboxModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

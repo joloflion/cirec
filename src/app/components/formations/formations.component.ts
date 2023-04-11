@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Formation } from 'src/app/core/models/formation';
 import { FormationService } from 'src/app/core/services/formation.service';
 
 @Component({
