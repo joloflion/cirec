@@ -84,4 +84,6 @@ export class FormationService {
     return this.afs.collection(SESSION).doc(id).get();
 
   }
+
+
 }
